@@ -21,13 +21,17 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 28px;
   padding: 0;
   margin: 0;
 }
 
 nav li {
   list-style: none;
+}
+
+nav a {
+  display: inline-block;
 }
 
 .dropdown {
@@ -52,13 +56,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .dropdown-content {
-  display: none;
-  background-color: white;
-  border-radius: 30px;
   position: absolute;
-  min-width: 160px;
- 
-  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dropdown-content a {
@@ -276,13 +277,11 @@ ul {
   margin: 0;
   padding: -20px 70px;
   list-style-type: none;
-  display: inline-block;
+  
 
 }
 
-li {
-	float:  none;
-}
+
 
 li a {
 	display: block;
