@@ -17,11 +17,11 @@ word-spacing: 1.8px;
 
 /* dropdown */
 
-nav{
+.nav{
   overflow: hidden;
 }
 
-nav a{
+.nav a{
 
   float: left;
   font-size: 16px;
