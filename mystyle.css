@@ -16,6 +16,10 @@ body {
 word-spacing: 1.8px;
 }
 
+h1 {
+  margin: 0;
+}
+
 .bottomimg{
   padding-bottom: 70px;
 }
