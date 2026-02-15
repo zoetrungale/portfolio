@@ -19,10 +19,7 @@ word-spacing: 1.8px;
 
 nav{
   overflow: hidden;
-  position: relative;
-margin: auto;
-padding: 0;
-width: 100%;
+  
 }
 
 nav a{
@@ -286,7 +283,7 @@ ul {
 }
 
 li {
-	float:  right;
+	float:  none;
 }
 
 li a {
