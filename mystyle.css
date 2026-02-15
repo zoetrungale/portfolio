@@ -1,0 +1,529 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: veranda ;
+  text-align: center;
+  width:  1200px;
+  margin:  0 auto;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+word-spacing: 1.8px;
+}
+
+.bottomimg{
+  padding-bottom: 70px;
+}
+
+/* dropdown */
+
+nav{
+  overflow: hidden;
+}
+
+nav a{
+
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  background-color: white;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+  background-color: #FADD4D;
+  border-radius: 80px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  border-radius: 30px;
+  position: absolute;
+  min-width: 160px;
+ 
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p{
+  
+  text-align: left;
+  width:  1200px;
+  font-family: veranda, sans-serif;
+font-size: 1vw;
+word-spacing: 1.8px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+padding-right: 20%;
+}
+
+
+
+header {
+  border-color: white;  
+  border-width: 13px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer{
+	background-color: #FADD4D;
+    position: fixed;
+    bottom: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
+	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+}
+
+
+
+.description{
+  float: right;
+}
+
+section{
+  padding: 10px;
+}
+
+
+ img {
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.center {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+.border{
+  width: 30px;
+}
+
+//printmaking images
+
+.print{
+  padding: 100px;
+  max-width: 80%;
+  height: auto;
+}
+
+
+
+.right{
+  position: relative;
+  float:  right;
+}
+
+.left{
+  float: left;
+}
+
+/* Titles */
+
+.righttitle{
+  font-family: veranda, sans-serif;
+  position: relative;
+  float:  right;
+  font-size: 5vw;
+  letter-spacing: 5px;
+  padding-top: 305px;
+  color: #5D58F5;
+  padding-right: 5px;
+
+}
+
+.righttitle1{
+  font-family: veranda, sans-serif;
+  float: right;
+  position: relative;
+  font-size: 5vw;
+  letter-spacing: 5px;
+  color: #5D58F5;
+  padding-left: 0px;
+  padding-right: 5px;
+
+
+}
+
+.lefttitle{
+  font-family: veranda, sans-serif;
+  float: left;
+  font-size: 6vw;
+  letter-spacing: 5px;
+  color: #5D58F5;
+  padding-left: 5px;
+
+  
+}
+
+
+.verticaltype{
+  font-family: veranda, sans-serif;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  float:right;
+  position: relative;
+  font-size: 6vw;
+  letter-spacing: 5px;
+  padding-top: 35px;
+
+  color: #F5A510;
+}
+
+.diycaption{
+  text-align: center;
+ float: right;
+ width:400px;
+ display: block;
+  font-family: veranda, sans-serif;
+font-size: 1vw;
+letter-spacing: -0.4px;
+word-spacing: 1.8px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+
+.colorblock{
+width: 1000vw;
+height: 2vh;
+background-color: #D9D21A;
+}
+
+
+
+h2{
+  font-size: 5vw;
+  letter-spacing: 5px;
+  color: #347A1B;
+}
+
+h3{
+  text-align: left;
+  font-size: 5vw;
+  letter-spacing: 5px;
+  color: #5379FC;
+}
+
+
+
+
+div.line{
+	background-color: black;
+}
+
+/* nav*/
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: -20px 70px;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+li {
+	float:  right;
+}
+
+li a {
+	display: block;
+
+	text-align: center;
+	padding:  10px 30px;
+  border-radius: 50px;
+	text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+li a:hover{
+	background-color: #FADD4D;
+  border-radius: 80px;
+}
+
+/* image gallery */
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  display: inline-block;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 1;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* styling lightbox gallery */
+
+* {
+  box-sizing: border-box;
+}
+
+.row1 > .column1 {
+  padding: 0 8px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 60%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 40px;
+  right: 45px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 6px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(225, 225, 225, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  padding: 60px 20px;
+}
+
+.page-intro{
+  width: 100%; /* Makes the input full-width of its container */
+  padding: 12px 20px; /* Adds space inside the box */
+  margin: 8px 0; /* Adds space outside the box */
+  display: inline-block;
+}
+
+.project {
+  margin-bottom: 120px;
+  
+}
+
+.project-header h2 {
+  margin-bottom: 10px;
+}
+
+.project-description {
+  width: 100%; /* Makes the input full-width of its container */
+  padding: 12px 20px; /* Adds space inside the box */
+  margin: 8px 0; /* Adds space outside the box */
+  display: inline-block;
+}
+
+.sub-project{
+  width: 100%; /* Makes the input full-width of its container */
+  padding: 12px 20px; /* Adds space inside the box */
+  margin: 8px 0; /* Adds space outside the box */
+  display: inline-block;
+}
+
+.meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  flex-wrap: wrap;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
