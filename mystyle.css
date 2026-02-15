@@ -1,11 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 	font-family: veranda, sans-serif;
   text-align: center;
   width:  1200px;
-  margin:  20% auto;
+  margin:  0 auto;
   font-size: 14px;
   letter-spacing: -0.4px;
 word-spacing: 1.8px;
