@@ -501,6 +501,32 @@ img.hover-shadow {
   height: auto;
 }
 
+.sub-project {
+  margin-top: 4rem;
+}
 
+.sub-project h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
 
+.sub-project p {
+  max-width: 600px;
+  margin-bottom: 1.5rem;
+}
 
+.image-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.image-grid.two-col {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
