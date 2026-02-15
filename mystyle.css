@@ -130,6 +130,10 @@ header h1 {
   margin: 0;
 }
 
+header img {
+  display: block;
+}
+
 footer{
 	background-color: #FADD4D;
     position: fixed;
